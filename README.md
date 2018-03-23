@@ -4,6 +4,7 @@ This is the slack bot that responds to the `/lookup` commands in Twilio's slack 
 
 ## architecture
 
+```
 +----------------------+                   +---------------------------+
 |                      |                   |                           |
 |                      +-----------------> |     Twilio Function       |
@@ -11,6 +12,7 @@ This is the slack bot that responds to the `/lookup` commands in Twilio's slack 
 |   (runs in Slack]    |                   |        (function.js)      |
 |                      | <---------------+ |                           |
 +----------------------+                   +---------------------------+
+```
 
 ## Slack Bot Setup
 
