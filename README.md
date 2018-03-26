@@ -17,7 +17,7 @@ You can try a publically available [Lookup](https://www.twilio.com/lookup) or wh
 ```
 
 ## Twilio Add-Ons Setup
-1. Enable Add-ons in the [Console](twilio.com/console/lookup/add-ons)
+1. Enable Add-ons in the [Console](https://www.twilio.com/console/lookup/add-ons)
     *  Make sure you filter the list by the Lookup Category
 1. Take note of the unique name for each enabled add-on.
 1. Update the list of add-ons at the top of the function.js file.
