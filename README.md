@@ -23,10 +23,10 @@ You can try a publically available [Lookup](https://www.twilio.com/lookup) or wh
 1. Update the list of add-ons at the top of the function.js file.
 
 ## Twilio Function Setup
-1. Setup a function with the code in function.js
-1. Turn off signature validation
-1. Enable ACCOUNT_SID and AUTH_TOKEN here : https://www.twilio.com/console/runtime/functions/configure
-1. Add LOOKUP_SLACKBOT_TOKEN env variable here : https://www.twilio.com/console/runtime/functions/configure . 
+1. Setup a [function](https://www.twilio.com/console/runtime/functions/manage) with the code in function.js
+1. Turn off signature validation inside your function
+1. Enable ACCOUNT_SID and AUTH_TOKEN here: https://www.twilio.com/console/runtime/functions/configure
+1. Add LOOKUP_SLACKBOT_TOKEN env variable here : https://www.twilio.com/console/runtime/functions/configure 
     * Set it to the Verification Token from your Slackbot's Settings -> Basic Information -> App Credentials -> Verification Token
 
 ## Slack Bot Setup
@@ -44,6 +44,6 @@ You can try a publically available [Lookup](https://www.twilio.com/lookup) or wh
 1. Select different enabled Lookup addons from the dropdown for additional information
 
 ### Lookup in Slack
-![Lookup in Slack]()
+![Lookup in Slack](https://github.com/AuthySE/lookup-slack-bot/blob/master/Lookup-in-Slack.png)
 
 
