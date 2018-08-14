@@ -12,7 +12,6 @@ exports.handler = function (context, event, callback) {
         {"text": "Whitepages Pro Caller Identification", "value": "whitepages_pro_caller_id"},
         {"text": "Whitepages Pro Phone Intelligence", "value": "whitepages_pro_phone_intel"},
         {"text": "Whitepages Pro Phone Reputation", "value": "whitepages_pro_phone_rep"},
-        {"text": "Advanced Caller ID by Next Caller", "value": "nextcaller_advanced_caller_id"},
         {"text": "Twilio Carrier Information", "value": "twilio_carrier_info"},
         {"text": "Twilio Caller Name", "value": "twilio_caller_name"},
         {"text": "Payfone TCPA Compliance", "value": "payfone_tcpa_compliance"},
