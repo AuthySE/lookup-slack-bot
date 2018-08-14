@@ -21,7 +21,8 @@ exports.handler = function (context, event, callback) {
         {"text": "Digital Segment Business Information", "value": "digitalsegment_businessinfo"},
         {"text": "TrueSpam by TrueCNAM", "value": "truecnam_truespam"},
         {"text": "OpenCNAM by Telo", "value": "telo_opencnam"},
-        {"text": "RealPhoneValidation RPV Turbo", "value": "real_phone_validation_rpv_turbo"}
+        {"text": "RealPhoneValidation RPV Turbo", "value": "real_phone_validation_rpv_turbo"},
+        {"text": "Fraud", "value": "fraud"}
     ];
 
     let addons = [];
